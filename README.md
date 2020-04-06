@@ -1,2 +1,2 @@
 # SQL-Queries
-Important SQL queries - All Databases
+Important SQL queries 
