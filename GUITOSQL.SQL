@@ -1,3 +1,5 @@
+---EXECUTE ON CONTROL DATABASE
+
 SELECT DISTINCT xp.pacName as PackageName,tableName,feedPopDescription as Population, 
 CONVERT(VARCHAR(12),xazf.zipFileDate,107) CurrentThrough,xpt.progressTypeName as Progress,loadSubPercentComplete,resultTypeName as TableStatus
 FROM dbo.xfu_LoadSubToLoadJob xlstlj(NOLOCK)
