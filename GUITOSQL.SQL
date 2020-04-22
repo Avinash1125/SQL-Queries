@@ -1,4 +1,5 @@
 ---EXECUTE ON CONTROL DATABASE
+--- Dont run on Target database
 
 SELECT DISTINCT xp.pacName as PackageName,tableName,feedPopDescription as Population, 
 CONVERT(VARCHAR(12),xazf.zipFileDate,107) CurrentThrough,xpt.progressTypeName as Progress,loadSubPercentComplete,resultTypeName as TableStatus
